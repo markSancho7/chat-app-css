@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 500px;
+    padding-top: 50px;
+    margin-inline: auto;
+    overflow: hidden;
+    background-color: rgba(128, 128, 128, 0.131);
+}
+.movileContainer{
+    position: relative;
+    width: 300px;
+    height: 660px;
+    border: 13px solid white;
+    border-radius: 50px;
+    margin-inline: auto;
+    background-color: rgb(240, 240, 240);
+}
+.movileHeader{
+    overflow: hidden;
+    width: 274px;
+    height: 100px;
+    background-image: linear-gradient(to left,#E844FF, #8739FF);
+    border-radius: 40px 40px 10px 10px;
+}
+.witheHole{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: -18px;
+    margin-inline: auto;
+}
+.arrow{
+    filter: invert();
+    height: 15px;
+    position: absolute;
+    top: 54px;
+    left: 12px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 100%;
+    position: absolute;
+    left: 35px;
+    top: 40px;
+}
+.movileOwner{
+    position: absolute;
+    left: 90px;
+    top: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+.movileName{
+    font-family: 20px;
+    font-weight: bold;
+}
+.movileAvailable{
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.558);
+}
+.points{
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    box-shadow: white 0px 7px, white 0px 14px;
+}
+.figureTop{
+    width: 610px;
+    height: 1018px;
+    background-image: linear-gradient(#E844FF, #8739FF);
+    position: absolute;
+    border-radius: 1000px;
+    top: 10px;
+    left: -520px;
+    top: -350px;
+    box-shadow: #8839ff11 650px 900px;
+    overflow: hidden;
+    z-index: -1;
+}
+.movileMessagesContainer{
+    padding: 10px;
+    width: 274px;
+    height: 795px;
+    margin-top: -5px;
+    overflow: hidden;
+    z-index: -0;
+}
+.messagePurple{
+    color: #ba3eca;
+    width: 170px;
+    padding: 10px 40px 10px 10px;
+    margin-top: 10px;
+    font-size: 10px;
+    background-color: #eadffb;
+    font-family: sans-serif;
+    border-radius: 20px 20px 20px 5px;
+}
+.imagesContainer{
+    width: 274px;
+    height: 50px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+.dogPicture{
+    width: 50px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+.messageGrey{
+    background-color: white;
+    border-radius: 20px 20px 5px 20px;
+    padding: 10px;
+    width: 160px;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-left: auto;
+    color: rgba(0, 0, 0, 0.55);
+}
+.messageGrey2{
+    width: 100px;
+}
+.messageBgPurple{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px 15px 15px 5px;
+    background-image: linear-gradient(to right,#E844FF, #a973fa);
+    width: 200px;
+    padding: 13px 10px;
+    padding-right: 20px;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.475);
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.messageWalk{
+    color: rgba(255, 255, 255, 0.749);
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.price{
+    margin-left: auto;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.writeSpaceContainer{
+    position: relative;
+}
+.writeSpace{
+    position: absolute;
+    margin-top: 15px;
+    border-radius: 40px;
+    width: 250px;
+    font-family: sans-serif;
+    font-size: 10px;
+    background-color: white;
+    padding: 15px 10px 10px 30px;
+    color: grey;
+}
+.buttonSend{
+    position: absolute;
+    background-color: #411a7c;
+    height: 25px;
+    width: 25px;
+    left: 217px;
+    top: 20px;
+    border-radius: 100%;
+
+}
+.arrowButton{
+    rotate: 180deg;
+    height: 15px;
+    position: absolute;
+    filter: invert();
+    top:5px;
+    left: 6px;
+}
+.descriptionContainer{
+    width: 400px;
+    margin-inline: auto;
+    margin-top: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.descriptionTitle{
+    font-size: 40px;
+    font-weight: bold;
+    color:#2d1256;
+}
+.description{
+    margin-top: 30px;
+    font-size: 20px;
+    color: gray;
+    line-height: 35px;
+}
+@media (min-width: 1400px) {
+    .container {
+      display: flex;
+      width: 1400px;
+    }
+    .descriptionContainer{
+        margin-top: 300px;
+    }
+    .figureTop{
+        top: -500px;
+        box-shadow: #8839ff11 1350px 700px;
+    }
+    .movileContainer{
+        margin-top: 120px;
+        margin-left: 200px;
+    }
+  }
